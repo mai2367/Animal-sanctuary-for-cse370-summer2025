@@ -18,7 +18,7 @@ include "header.php"; ?>
     <div><label>Phone</label><input name="phone_no" value="<?=$me['phone_no']?>"></div>
     <div><label>Email</label><input type="email" name="email" value="<?=$me['email']?>"></div>
     <div><label>Job</label><input name="job" value="<?=$me['job']?>"></div>
-    <div><label>Password</label><input name="password" value="<?=$me['password']?>"></div>
+    <div><label>Password</label><input type="password" name="password" value="<?=$me['password']?>"></div>
     <div><button class="btn primary">Save</button></div>
   </form>
 </div>
